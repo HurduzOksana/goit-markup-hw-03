@@ -312,7 +312,7 @@ margin-left: auto;
 
 .section-advantages,
 .section-operations {
-    background-color: var(--background-main);
+    background-color: var(--background-header)
 }
 
 
@@ -370,6 +370,8 @@ margin-left: auto;
     display: block;
     margin: 0;
     padding: 30px 0;
+
+    background-color: var(--background-header);
  
 }
 
@@ -425,9 +427,6 @@ margin-left: auto;
 
 .address {
 
-    margin-top: 20px;
-    margin-bottom: 9px;
-
     color: var(--white-text-color);
 
     text-decoration: none;
@@ -435,8 +434,6 @@ margin-left: auto;
 }
 
 .address-footer {
-
-    margin-bottom: 9px;
 
     color: rgba(255, 255, 255, 0.6);
 
@@ -450,6 +447,11 @@ margin-left: auto;
 }
 
 .logo-footer {
+
+    display: inline-block;
+
+    margin-bottom: 20px;
+
     color: var(--white-text-color);
 
     text-decoration: none;
@@ -496,14 +498,17 @@ margin-left: auto;
 
 }
 
+.selection {
+
+margin-right: 8px;
+    
+}
+
 
 .filtr.current {
 
     padding: 6px 25px;
-    margin: 0;
-    margin-right: 8px;
-
-
+    
     color: var(--white-text-color);
     background-color: var(--accent);
 
@@ -518,8 +523,6 @@ margin-left: auto;
 .filtr {
 
     padding: 6px 22px;
-    margin: 0;
-    margin-right: 8px;
 
     border-radius: 4px;
     border: transparent;
